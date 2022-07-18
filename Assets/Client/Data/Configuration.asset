@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d936fcf38aa24500973899d4d3f59e92, type: 3}
+  m_Name: Configuration
+  m_EditorClassIdentifier: 
+  _characters:
+  - {fileID: 11400000, guid: a0375f8be5672424aab27016368034c7, type: 2}
+  - {fileID: 11400000, guid: 7d5b8b7509e508245b57e7bdb230882b, type: 2}
+  - {fileID: 11400000, guid: 5f72e4b703944d549b1387cadd68eab6, type: 2}
+  - {fileID: 11400000, guid: 24512c8fdaa87a64a87ee252b5c80d1f, type: 2}
+  - {fileID: 11400000, guid: 64e529da0efa3674397528bf460614da, type: 2}
+  - {fileID: 11400000, guid: 2ce9d44f4407ac44b84246a5aa32b9c9, type: 2}
+  _healthBars:
+  - {fileID: 11400000, guid: 9ad03cabcef1e1147971603f9a43f2cd, type: 2}
+  - {fileID: 11400000, guid: fe7ad1d275ad54e4fa558cac5ba80b49, type: 2}
+  _characterModificationMaxCount: 3
+  _characterModifications:
+  - <Id>k__BackingField: "\u0414\u0432\u043E\u0439\u043D\u0430\u044F \u0431\u0440\u043E\u043D\u044F"
+    <Type>k__BackingField: 3
+    <Modificator>k__BackingField:
+      <Accuracy>k__BackingField: 1
+      <Dexterity>k__BackingField: 1
+      <MaxHealth>k__BackingField: 1
+      <MaxArmor>k__BackingField: 2
+      <AimTime>k__BackingField: 1
+  - <Id>k__BackingField: "\u0414\u043E\u043B\u0433\u0430\u044F \u0436\u0438\u0437\u043D\u044C"
+    <Type>k__BackingField: 1
+    <Modificator>k__BackingField:
+      <Accuracy>k__BackingField: 0
+      <Dexterity>k__BackingField: 0
+      <MaxHealth>k__BackingField: 999
+      <MaxArmor>k__BackingField: 0
+      <AimTime>k__BackingField: 0
+  - <Id>k__BackingField: "\u0421\u0440\u0430\u0437\u0443 \u0432 \u0431\u043E\u0439"
+    <Type>k__BackingField: 3
+    <Modificator>k__BackingField:
+      <Accuracy>k__BackingField: 1
+      <Dexterity>k__BackingField: 1
+      <MaxHealth>k__BackingField: 1
+      <MaxArmor>k__BackingField: 1
+      <AimTime>k__BackingField: 0
+  - <Id>k__BackingField: "\u0411\u043E\u0439 \u043D\u0438\u043D\u0434\u0437\u044F"
+    <Type>k__BackingField: 3
+    <Modificator>k__BackingField:
+      <Accuracy>k__BackingField: 1
+      <Dexterity>k__BackingField: 0.3
+      <MaxHealth>k__BackingField: 1
+      <MaxArmor>k__BackingField: 1
+      <AimTime>k__BackingField: 1
+  - <Id>k__BackingField: God mode
+    <Type>k__BackingField: 3
+    <Modificator>k__BackingField:
+      <Accuracy>k__BackingField: 100
+      <Dexterity>k__BackingField: 100
+      <MaxHealth>k__BackingField: 100
+      <MaxArmor>k__BackingField: 100
+      <AimTime>k__BackingField: 100
+  _weaponModificationMaxCount: 2
+  _weaponModifications:
+  - <Id>k__BackingField: "\u0423\u0431\u0438\u0439\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0439
+      \u043F\u0430\u0442\u0440\u043E\u043D"
+    <Type>k__BackingField: 3
+    <Modificator>k__BackingField:
+      <Damage>k__BackingField: 10
+      <Accuracy>k__BackingField: 1
+      <FireRate>k__BackingField: 1
+      <ClipSize>k__BackingField: 1
+      <ReloadTime>k__BackingField: 1
+      <BulletSpeed>k__BackingField: 1
+  - <Id>k__BackingField: "\u0411\u0435\u0441\u043A\u043E\u043D\u0435\u0447\u043D\u044B\u0439
+      \u0431\u043E\u0435\u0437\u0430\u043F\u0430\u0441"
+    <Type>k__BackingField: 3
+    <Modificator>k__BackingField:
+      <Damage>k__BackingField: 1
+      <Accuracy>k__BackingField: 1
+      <FireRate>k__BackingField: 1
+      <ClipSize>k__BackingField: 100000
+      <ReloadTime>k__BackingField: 1
+      <BulletSpeed>k__BackingField: 1
+  - <Id>k__BackingField: "\u0412\u043E\u0434\u044F\u043D\u044B\u0435 \u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442\u044B"
+    <Type>k__BackingField: 3
+    <Modificator>k__BackingField:
+      <Damage>k__BackingField: 0
+      <Accuracy>k__BackingField: 1
+      <FireRate>k__BackingField: 1
+      <ClipSize>k__BackingField: 1
+      <ReloadTime>k__BackingField: 1
+      <BulletSpeed>k__BackingField: 1
+  - <Id>k__BackingField: "\u0411\u044B\u0441\u0442\u0440\u0430\u044F \u043F\u0435\u0440\u0435\u0437\u0430\u0440\u044F\u0434\u043A\u0430"
+    <Type>k__BackingField: 3
+    <Modificator>k__BackingField:
+      <Damage>k__BackingField: 0
+      <Accuracy>k__BackingField: 0
+      <FireRate>k__BackingField: 0
+      <ClipSize>k__BackingField: 0
+      <ReloadTime>k__BackingField: 0.5
+      <BulletSpeed>k__BackingField: 0
+  - <Id>k__BackingField: "\u041A\u043E\u0432\u0431\u043E\u0438"
+    <Type>k__BackingField: 3
+    <Modificator>k__BackingField:
+      <Damage>k__BackingField: 1
+      <Accuracy>k__BackingField: 1
+      <FireRate>k__BackingField: 10
+      <ClipSize>k__BackingField: 1
+      <ReloadTime>k__BackingField: 1
+      <BulletSpeed>k__BackingField: 1
+  - <Id>k__BackingField: "\u0417\u0430\u043C\u0435\u0434\u043B\u0435\u043D\u043D\u0430\u044F
+      \u0441\u044A\u0435\u043C\u043A\u0430"
+    <Type>k__BackingField: 3
+    <Modificator>k__BackingField:
+      <Damage>k__BackingField: 1
+      <Accuracy>k__BackingField: 1
+      <FireRate>k__BackingField: 1
+      <ClipSize>k__BackingField: 1
+      <ReloadTime>k__BackingField: 1
+      <BulletSpeed>k__BackingField: 0.5
